@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux'
-import { useState, useEffect} from 'react'
+import { useState} from 'react'
 import { deleteGoal } from '../features/goals/goalSlice'
 import { AiFillDelete, AiFillEdit } from 'react-icons/ai'
 import Popup from './Popup'

@@ -5,7 +5,7 @@ import GoalForm from '../components/GoalForm'
 import GoalItem from '../components/GoalItem'
 import Spinner from '../components/Spinner'
 import Popup from '../components/Popup'
-import { getGoals, reset } from '../features/goals/goalSlice'
+import { getGoals} from '../features/goals/goalSlice'
 import { toast } from 'react-toastify'
 
 function getAge(createdAt) {
