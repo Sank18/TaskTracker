@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
    "scripts": {
-    "dev":"nodemon index.js",
+    "dev":"nodemon server.js",
     "build":"npm i",
-    "start":"start": "node src/backend/index.js"
+    "start":"node server.js"
 
   },
   "author": "",
