@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
+   "scripts": {
     "dev":"nodemon index.js",
-    "build":"npm i"
+    "build":"npm i",
+    "start":"node index.js"
   },
   "author": "",
   "license": "ISC",
