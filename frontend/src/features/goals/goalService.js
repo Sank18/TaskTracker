@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/goals/'
+const API_URL = 'https://task-track-ayvs.onrender.com/api/goals/'
 
 // Create new goal
 const createGoal = async (goalData,completeTime,priority, token) => {
