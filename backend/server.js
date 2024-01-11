@@ -18,11 +18,7 @@ app.use(express.json());
 
 //
 app.use(express.urlencoded({ extended: false }));
-app.use(
-  cors({
-    origin : ["https://659feb559dcf1b0c449a1136--rad-mandazi-d3a5cb.netlify.app"]
-  })
-)
+app.use(cors());
 
 app.use('/api/goals', require('./routes/goalRoutes'));
 //crud operations on goals
