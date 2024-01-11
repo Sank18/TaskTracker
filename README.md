@@ -1,35 +1,24 @@
-# GoalSetter🎯 - Your Ambition Ally!
-Welcome to GoalSetter🎯! <br><br>
+# TaskTracker🎯 - Your Ambition Ally!
 
-<p align="center"><img src="demo/poster.png" alt="app poster" height="400" width="700"></p>
+Welcome to TaskTracker🎯!
 
 # Table of Contents📄
-- Demo
 - Features
 - Installation
 - Usage
 - Future Enhancements
 - License
 
-# Demo💻
-
-
-
-https://github.com/Atigit15/GoalSetter/assets/77894729/10646b9c-527e-418f-ab41-f722aaa0fae2
-
-
-
-  
 # Features💫
-- **User Authentication** - GoalSetter offers a robust user authentication system that ensures secure access to the app. 
+- **User Authentication** - TaskTracker offers a robust user authentication system that ensures secure access to the app.
   - Register: Users can register their accounts using a unique email address and password.
   - Login: Subsequently, log in with their credentials.
-  - Authentication is implemented with the help of JWT tokens. The user remains signed in until he closes the tab.
+  - Authentication is implemented with the help of JWT tokens. The user remains signed in until they close the tab.
   - Various checks on login and register forms are added to ensure robustness.
 
 - **Goal Management** - Once logged in, users gain access to their personalized dashboard. From here, they can easily<p>
     - **Add Goals:** Create new goals by specifying goal detail.
-    - **Update Goals:** Modify existing goals..
+    - **Update Goals:** Modify existing goals.
     - **Read Goals**: View a comprehensive list of all their goals.
     - **Delete Goals:** Remove completed or obsolete goals from their list, keeping their dashboard clutter-free.
       
@@ -44,16 +33,16 @@ https://github.com/Atigit15/GoalSetter/assets/77894729/10646b9c-527e-418f-ab41-f
   - Date at which goal is to be completed (deadline)
   - Age (Days the goal has been in the dashboard)
   - Days left until the deadline
-  - User set priority of goals
+  - User-set priority of goals
   - Aged priority (priority based on how close is the deadline)
   
 - **Form Validation**: Made validation checks to the login and register forms, which now display error messages through the Toastify API. I also implemented validation checks for the forms used to add and update goals, which prevent users from setting a completion time earlier than the current date or a negative priority. These changes have improved data consistency.
 
 # Installation🛠️
-To run GoalSetter locally, follow these steps:
+To run TaskTracker locally, follow these steps:
 
-- Clone the repository: `git clone https://github.com/AtiGit15/goalsetter.git`
-- Navigate to the project directory: `cd goalsetter`
+- Clone the repository: `git clone https://github.com/Sank18/TaskTracker.git`
+- Navigate to the project directory: `cd TaskTracker`
 - Install server dependencies: `npm install`
 - Navigate to the client directory: `cd client`
 - Install client dependencies: `npm install`
@@ -70,7 +59,7 @@ To run GoalSetter locally, follow these steps:
 - Log in to access your personalized dashboard.
 - Add your goals 
 - Update or delete goals as needed.
-### Stay motivated, track your progress, and achieve your dreams with GoalSetter!
+### Stay motivated, track your progress, and achieve your dreams with TaskTracker!
 
 # Future Enhancements💫
 
@@ -83,6 +72,6 @@ To run GoalSetter locally, follow these steps:
 This project is licensed under the MIT License. Please feel free to use, modify, and distribute this code according to the terms of the license.
 
 ---
-We hope GoalSetter helps you stay focused and accomplish your aspirations.<br>
+We hope TaskTracker helps you stay focused and accomplish your aspirations.<br>
 Feel free to star the repository if you find it useful, and don't forget to share it with others who might benefit from this tool.<br>
 Happy goal setting! 🎯<br>

@@ -4,10 +4,10 @@ const colors = require('colors');
 const dotenv = require('dotenv').config();
 const cors = require('cors');
 const { errorHandler } = require('./middleware/errorMiddleware');
-//response jo milega us response mai status code hoga ki req fulfill hui yaa nahi huai us basis pai error generate hoga
+
 const connectDB = require('./config/db');
 const port = process.env.PORT || 5000;
-//env mai jitne bhi variables hote wo process to env sai refer hote 
+
 
 connectDB();
 
